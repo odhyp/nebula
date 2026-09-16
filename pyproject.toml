@@ -1,7 +1,13 @@
 [project]
 name = "nebula"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python starter template"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.2",
+    "ruff>=0.16.7",
+]
