@@ -20,8 +20,8 @@ Make sure to have [uv](https://github.com/astral-sh/uv) installed on your machin
 3. Rename `src/nebula` to `src/project_name`
 
 4. Update `pyproject.toml`:
-   - Change `name = "nebula"` to `name = "project-name"` (hyphens are fine here — this is just the distribution name)
-   - Change `packages = ["src/nebula"]` to `packages = ["src/project_name"]` under `[tool.hatch.build.targets.wheel]` (must match the underscore folder name from step 3, or the build won't find your package)
+   - Change `name = "nebula"` to `name = "project-name"`
+   - Change `packages = ["src/nebula"]` to `packages = ["src/project_name"]` under `[tool.hatch.build.targets.wheel]` (match the underscore folder name from step 3)
 
 5. Initialize the project:
 
